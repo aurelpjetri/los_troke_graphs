@@ -5,7 +5,7 @@ This is an implementation of a method for segmenting on-line handwritten math fo
 
 ## 1) Files
 The directory in which this file is present contains also the following files:  
-  • a folder called "project" containing the files:
+  * a folder called "project" containing the files:
     - create_dataset.py  
     - dataset_utils.py  
     - graphic_segmenter.py  
@@ -14,8 +14,8 @@ The directory in which this file is present contains also the following files:
     - parserXml.py  
     - randomForest.py   
     - util.py  
-  • a folder called "ICFHR_package" containing the training and testing sets from the CROHME competition. In this project we use only the training files.   
-  • this README file  
+  * a folder called "ICFHR_package" containing the training and testing sets from the CROHME competition. In this project we use only the training files.   
+  * this README file  
 
 ## 2) Prerequisites
   • Python 2.7.10  
