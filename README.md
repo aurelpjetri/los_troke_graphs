@@ -4,7 +4,7 @@ April 21, 2017
 This is an implementation of a method for segmenting on-line handwritten math formulas that consists of line of sight stroke graph representation of the formula, feature extraction and training of a random forest classifier.
 
 ## 1) Files
-The directory in which this file is present contains also the following files:
+The directory in which this file is present contains also the following files:  
   • a folder called "project" containing the files:
     - create_dataset.py  
     - dataset_utils.py  
@@ -50,13 +50,13 @@ At the end of this phase two files .txt (one for the training and the other
 for the testing set) will be created in the specified paths.
 
 ### 4.2) Training and Classification
-In the second step we have to open the script random_forest.py. Here we have to add:
-  • the path of the training set that we have created in the first step as input of the function ds.load_dataset_from_file() (at line 18).
-  For example:
-  training_set, training_labels = ds.load_dataset_from_file(’ /Users/../Desktop/trainingset.txt’)
-  • the path of the test set that we have created in the first step as input of the function ds.load_dataset_from_file() (at line 28).
-  For example:
-  testing_set, testing_labels = ds.load_dataset_from_file(’ /Users/../Desktop/testset.txt’)
+In the second step we have to open the script random_forest.py. Here we have to add:  
+  • the path of the training set that we have created in the first step as input of the function ds.load_dataset_from_file() (at line 18).  
+  For example:  
+  training_set, training_labels = ds.load_dataset_from_file(’ /Users/../Desktop/trainingset.txt’)  
+  • the path of the test set that we have created in the first step as input of the function ds.load_dataset_from_file() (at line 28).  
+  For example:  
+  testing_set, testing_labels = ds.load_dataset_from_file(’ /Users/../Desktop/testset.txt’)  
   • modify the test_result_file variable adding the path to the text file in which the test results will be written.
 After we have done these changes, we can run the random_forest.py file. A text file (in the specified path) will be written with all the informations gathered from the tests.
 
